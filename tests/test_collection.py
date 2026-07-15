@@ -8,7 +8,7 @@ before writing your own tests for the watchlist feature (see Comment 4).
 
 import pytest
 from app import create_app, db
-from models import User, Film, CollectionEntry
+from models import User, Film, CollectionEntry, WatchlistEntry
 from services.collection_service import (
     add_to_collection,
     remove_from_collection,
@@ -137,3 +137,5 @@ def test_get_collection_returns_newest_first(app, sample_user):
         # Blade Runner was added later, so it should come first
         assert titles[0] == "Blade Runner"
         assert titles[1] == "Alien"
+
+

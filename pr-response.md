@@ -12,7 +12,10 @@ I verified that all instances of `save_to_watchlist` were changed by using my ed
 
 ## Comment 2 — Deduplication
 **What I did:**
+I added Deduplication logic to my `add_to_watchlist` function in the same way `add_to_collection` in `collection_service` does. 
+
 **How I verified:**
+I verified the Deduplication logic by running a test when I add the same film twice into the watchlist. This resulted in the second addition of the film throwing the correct error, hence I verified my deduplication logic.
 
 ## Comment 3 — Missing test
 **What I did:**
