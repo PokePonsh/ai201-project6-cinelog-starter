@@ -47,8 +47,13 @@ While I understand your reasoning for wanting the watchlist to be ordered by dat
 
 ## Comment 6 — Rebase
 **What conflicted:**
+The main conflicts were `models.py`, and `.gitignore`.
+
 **How I resolved it:**
+I resolved the `.gitignore` issue by adding `.pytest_cache/` to it, as it was present in main, but not my branch, so I added it to the git ignore list. The secondary, and main, issue with the rebase was the fact that the new `models.py` did not include the `WatchlistEntry` class. I solved this by adding it back into `models.py`. This however, did not solve all of the issues, as in the branch I rebased onto had different logic for the movie ID. I changed `WatchlistEntry` to work with this difference. The only remaining difference was changing the comments in `watchlist_service.py` and `watchlist.py` as they refered to the movie id as integers, instead of the strings they now were. No other changes were necessary, as the logic and code didn't need to change in any way to accomidate the change from integer to string.
+
 **How I verified no conflict remains:**
+I verified that no conflicts remained by both checking my new commit log, and most importantly, running the pytest tests again to ensure everything still works correctly.
 
 ## PR Description
 <!-- Written at the end — feature overview, design decisions, manual testing steps -->
