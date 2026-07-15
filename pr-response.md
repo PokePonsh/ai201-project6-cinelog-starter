@@ -36,13 +36,13 @@ A possible tradeoff of this stand is that users do not want anyone to know what 
 
 ## Comment 5 — Sort order
 **My position:**
-
+Alphabetical sorting for watchlist should remain.
 
 **Reasoning:**
-
+Alphabetical sorting of watchlists allows for much quicker navigation of movies for the user, as it is much easier to check wheter you already have a movie on your watchlist, rater than beginning to search through the whole list of movies. Additionally as mentioned above, this is also useful for others engaging with the user's watchlist to check if a movie recommendation they have is already on the list, hence reducing obsolete suggestions, and allowing the app to be more easily sociable.
 
 **Engagement with reviewer's point:**
-
+While I understand your reasoning for wanting the watchlist to be ordered by date, as most people want to see what they added recently, I somewhat disagree with this stance. If a person adds something to their watchlist, it most likely means that they want to watch it regardless of when it was added. Addtionally, I find that the idea of sorting the watchlist by date would actually be detremental to the idea of the watchlist, as in most cases, if the watchlist was sorted by date, only the last few movies would be visible to the user, thus any older movies added to the watchlist will be pushed down and forgotten about, meaning that the list will build, and older movies a person wants to watch, will most likely not be watched. Alphabetical sorting solves this issue, as it is much easier to think and execute "today I'll watch a movie starting with 'L'" and jumping to the letter L in the list, rather than "today I'll watch a movie I added to my watchlist 3 years ago."
 
 
 ## Comment 6 — Rebase
