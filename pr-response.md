@@ -1,7 +1,7 @@
 # PR Response Doc — CineLog Watchlist Feature
 
 ## AI Usage
-<!-- Fill in at the end — how you used AI tools during this project -->
+One way I used AI in this project was helping me through the rebasing process as I have never done it before, and was running into issues. I used it to help me through the process so that I can correctly achievemy desired result.
 
 ## Comment 1 — Rename
 **What I did:**
@@ -55,5 +55,38 @@ I resolved the `.gitignore` issue by adding `.pytest_cache/` to it, as it was pr
 **How I verified no conflict remains:**
 I verified that no conflicts remained by both checking my new commit log, and most importantly, running the pytest tests again to ensure everything still works correctly.
 
+
+## Commit History
+
+![commit history](screenshot.png)
+
 ## PR Description
-<!-- Written at the end — feature overview, design decisions, manual testing steps -->
+
+**What it does:**
+
+This PR creates a watchlist for each user. Watchlist is a list that stores movies that the user intends on watching in the future. It adds two features:
+
+- `GET/watchlist/<user_id>` - returns the watchlist as a list.
+- `POST/watchlist/<user_id>\add` - adds a movie to the user's watchlist.
+
+**Design Decision:**
+
+There were two design decisions made in this project
+- Setting watchlists to be public by default.
+- Ordering watchlists alphabetically.
+
+**How to Test:**
+
+1. Start the app: `python app.py` (Runs on `http://127.0.0.1:5000`)
+
+2. Add seed data for a test user and test movies.
+
+3. Add created movie to the user's watchlist.
+
+4. Check user's watchlist to ensure it was added.
+
+5. Add same movie to the watchlist again to test that deduplicity works properly
+
+6. Add a nonexistent movie to the watchlist to ensure that non-existent movie logic works correctly
+
+7. You can also run `pytest tests/ -v` to ensure all existing tests, and adding non existent movie to watchlist work properly.
