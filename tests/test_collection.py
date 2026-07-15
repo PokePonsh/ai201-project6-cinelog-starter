@@ -8,7 +8,7 @@ before writing your own tests for the watchlist feature (see Comment 4).
 
 import pytest
 from app import create_app, db
-from models import User, Film, CollectionEntry, WatchlistEntry
+from models import User, Film, CollectionEntry
 from services.collection_service import (
     add_to_collection,
     remove_from_collection,

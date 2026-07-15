@@ -19,7 +19,10 @@ I verified the Deduplication logic by running a test when I add the same film tw
 
 ## Comment 3 — Missing test
 **What I did:**
+I created the test_watchlist python file in the tests folder. To this file I added a test that makes sure that adding a nonexistent film to a user's watchlist completes the correct behaviour.
+
 **How I verified:**
+I verified that this worked properly by running the test, and ensuring that it worked as intended, and that my test passed.
 
 ## Comment 4 — Default visibility
 **My position:**
