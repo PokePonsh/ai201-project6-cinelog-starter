@@ -26,13 +26,24 @@ I verified that this worked properly by running the test, and ensuring that it w
 
 ## Comment 4 — Default visibility
 **My position:**
+A user's watchlist should be public.
+
 **Reasoning:**
+A watchlist has two primary uses for most people, to keep track of what the person wants/is planning to watch, and to be able to share this information with others, so that they see what they are generally interested in, and to reccomend movies to the person. So a watchlist automatically being public makes sense, as it is then sharable to other users, so the above purposes can be reached, and movie reccomendations can be made without recommensing movies to the user without only recommending movies that the user has already watched. So the watchlists being automatically public allows for this behaviour, and overall makes sharing movies with others easier, and less repetative.
+
 **Tradeoff acknowledged:**
+A possible tradeoff of this stand is that users do not want anyone to know what they want to watch, as this can be deeply personal information, which they do not wish to share publically for people to see. However, the watchlist being public is only a default, and not a requirement, so a person that feels this way can set their own watchlist to private. The watchlist being public is something that I believe is more relevent to more people, so hence it is defaulted to public.
 
 ## Comment 5 — Sort order
 **My position:**
+
+
 **Reasoning:**
+
+
 **Engagement with reviewer's point:**
+
+
 
 ## Comment 6 — Rebase
 **What conflicted:**
